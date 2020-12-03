@@ -1,8 +1,11 @@
 
     document.getElementById('demo').style.display='none';
-    const cardContent = document.querySelector('.flip');
     
-    
+    function ClearFields() {
+
+        document.getElementById("yr").value = "";
+
+   }
     
     
     
@@ -23,7 +26,9 @@
         result.style.display = "block";
         document.getElementById('demo').innerHTML = chk + ' is not a leap year.';
         
+        
     }
+   ClearFields(); 
     
 }
 
