@@ -15,13 +15,13 @@
     if((chk % 400==0) || ((chk %100 !=0) && (chk % 4==0)))
     {
         result.style.display = "block";
-        document.getElementById('demo').innerHTML = 'Result: ' + chk + ' is a leap year!';
+        document.getElementById('demo').innerHTML = chk + ' is a leap year!';
         
     }
     else
     {
         result.style.display = "block";
-        document.getElementById('demo').innerHTML = 'Result: ' + chk + ' is not a leap year.';
+        document.getElementById('demo').innerHTML = chk + ' is not a leap year.';
         
     }
     
