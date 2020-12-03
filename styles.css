@@ -1,0 +1,68 @@
+
+body{
+    background-image: linear-gradient(90deg,#736F72, #9A8F97);
+    color: #E9E3E6;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(90deg, #9A8F97,#736F72);
+  border-radius: 5px;
+  padding: 20px;
+  width: 75%;
+  height: 50%;
+
+
+}
+
+.container:hover{
+     
+   box-shadow: 10px 10px 100px rgba(0,0,0,0.8);
+  
+  
+}
+
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-30%, -40%);
+  padding: 20px;
+  width: 75%;
+  height: 50%;
+  
+  
+  
+}
+
+.center2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-20%, -10%);
+  padding: 20px;
+  width: 75%;
+  height: 50%;
+  
+}
+
+/*
+
+position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-30%, -40%);
+  padding: 20px;
+  width: 75%;
+  height: 50%;
+
+
+*/ 
