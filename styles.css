@@ -31,7 +31,7 @@ body{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-30%, -40%);
+    transform: translate(-20%, -40%);
   padding: 20px;
   width: 75%;
   height: 50%;
@@ -47,7 +47,7 @@ body{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-20%, -10%);
+    transform: translate(-15%, -10%);
   padding: 20px;
   width: 75%;
   height: 50%;
@@ -62,11 +62,22 @@ p{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-20%, 40%);
+    transform: translate(-10%, 30%);
   padding: 20px;
   width: 75%;
   height: 50%;
 
+}
+
+#button {
+  background-color: #6E7271;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
 }
 /*
 
